@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/badge/Karpenter-0.3.0-green"/>
 </p>
 
-__Contains IaC used for productionized autoscaling and node provisioning used for Soar Aviation Solutions. Much modification required for combining with Argo/Metaflow cluster IaC.__
+__Contains IaC lifted for productionized autoscaling and node provisioning used for Soar Aviation Solutions. Much modification is required for combining with Argo/Metaflow cluster IaC.__
 
 # EKS with KEDA HPA & Karpenter cluster autoscaler
 This repository contains the necessary files and instructions to deploy and configure [KEDA](https://keda.sh/) (Kubernetes-based Event Driven Autoscaling) and [Karpenter](https://github.com/awslabs/karpenter) (Kubernetes Node Autoscaler) on an Amazon Elastic Kubernetes Service (EKS) cluster.
