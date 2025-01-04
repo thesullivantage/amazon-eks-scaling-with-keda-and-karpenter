@@ -1,4 +1,4 @@
-## Amazon EKS scaling with KEDA and Karpenter
+# EKS with KEDA HPA & Karpenter cluster autoscaler
 <p>
 <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
 <img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/>
@@ -10,8 +10,7 @@
 </p>
 
 __Contains infrastructure as code (IaC) lifted for productionized autoscaling and node provisioning used for Soar Aviation Solutions. Much modification is required for combining with Argo/Metaflow cluster IaC.__
-
-# EKS with KEDA HPA & Karpenter cluster autoscaler
+---
 This repository contains the necessary files and instructions to deploy and configure [KEDA](https://keda.sh/) (Kubernetes-based Event Driven Autoscaling) and [Karpenter](https://github.com/awslabs/karpenter) (Kubernetes Node Autoscaler) on an Amazon Elastic Kubernetes Service (EKS) cluster.
 
 KEDA enables autoscaling of Kubernetes pods based on the number of events in event sources such as Azure Service Bus, RabbitMQ, Kafka, and more. Karpenter is a Kubernetes node autoscaler that scales the number of nodes in your cluster based on resource usage.
