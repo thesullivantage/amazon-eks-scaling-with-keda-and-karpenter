@@ -10,6 +10,7 @@
 </p>
 
 __Contains infrastructure as code (IaC) lifted for productionized autoscaling and node provisioning used for Soar Aviation Solutions. Much modification is required for combining with Argo/Metaflow cluster IaC.__
+
 ---
 This repository contains the necessary files and instructions to deploy and configure [KEDA](https://keda.sh/) (Kubernetes-based Event Driven Autoscaling) and [Karpenter](https://github.com/awslabs/karpenter) (Kubernetes Node Autoscaler) on an Amazon Elastic Kubernetes Service (EKS) cluster.
 
